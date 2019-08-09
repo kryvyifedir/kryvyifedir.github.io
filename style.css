@@ -58,9 +58,9 @@ body{
     align-items: center;
 }
 
-.inner-block{
-    width: 80%;
-}
+ .inner-block{
+    max-width: 850pt;
+} 
 
 .section-background-gray {
     background: #eaeaea;
