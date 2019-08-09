@@ -1,0 +1,184 @@
+body{
+    margin: 0;
+    color:#595959;
+}
+
+.title-icon {
+    height: 32pt;
+    width: 32pt;
+    padding-right: 8pt;
+}
+
+.text-title{
+    font-family: 'Segoe UI Semibold', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 28pt;
+}
+
+.text-subtitle{
+    font-family: 'Segoe UI Semibold', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16pt;
+}
+
+.text-regular{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10pt;
+}
+
+.text-semibold{
+    font-family: 'Segoe UI Semibold', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10pt;
+}
+
+.text-color-darkblue{
+    color: #243a5e;
+}
+
+.text-color-blue{
+    color: #0078d4;
+}
+
+.text-color-lightblue{
+    color: #54ebff;
+}
+
+.text-color-white{
+    color: #ffffff;
+}
+
+.subtitlewithicon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 4pt;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inner-block{
+    width: 90%;
+}
+
+.section-background-gray {
+    background: #eaeaea;
+}
+
+.section-background-darkblue {
+    background: #24315e;
+}
+
+.padding-top-big{
+    padding-top: 32pt;
+}
+
+.padding-top-medium{
+    padding-top: 16pt;
+}
+
+.padding-top-small{
+    padding-top: 12pt;
+}
+
+.padding-bottom-big{
+    padding-bottom: 32pt;
+}
+
+.padding-bottom-medium{
+    padding-bottom: 16pt;
+}
+
+.padding-bottom-small{
+    padding-bottom: 12pt;
+}
+
+.padding-left-big{
+    padding-left: 32pt;
+}
+
+.padding-left-medium{
+    padding-left: 16pt;
+}
+
+.padding-left-small{
+    padding-left: 12pt;
+}
+
+.padding-right-big{
+    padding-left: 32pt;
+}
+
+.padding-right-medium{
+    padding-left: 16pt;
+}
+
+.avatar-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.avatar-card-img {
+    height: 100pt;
+    width: 100pt;
+    border-radius: 112pt;
+     margin-left: 32pt;
+    margin-right: 32pt;
+}
+
+.avatar-card-textblock {
+    display: flex;
+    flex-direction: column;
+}
+
+.split-table{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.table-column-left{
+    width: 230pt;
+} 
+
+.table-column-right{
+    width: 230pt;
+} 
+
+.table-inner-header{
+    font-family: 'Segoe UI Semibold', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12pt;
+}
+
+.experience-card{
+    display: flex;
+    flex-direction: column;
+}
+
+.experience-card-project{
+    width: 400pt;
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-bubbles{
+    padding-top: 6pt;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.skill-bubbles-item{
+    border-radius: 16pt;
+    background-color: #24315e;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 8pt;
+    padding-left: 8pt;
+    padding-right: 8pt;
+    padding-top: 2pt;
+    padding-bottom: 2pt;
+    margin: 1pt;
+}
