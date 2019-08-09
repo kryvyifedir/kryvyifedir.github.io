@@ -59,7 +59,7 @@ a{
 .section {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: center; 
 }
 
  .inner-block{
@@ -147,11 +147,15 @@ a{
 }
 
 .table-column-left{
-    max-width: 230pt;
+    width: 220pt;
+    padding-right: 18pt;
+    padding-left: 18pt;
 } 
 
 .table-column-right{
-    max-width: 230pt;
+    width: 220pt;
+    padding-right: 18pt;
+    padding-left: 18pt;
 } 
 
 .experience-card{
