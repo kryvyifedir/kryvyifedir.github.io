@@ -1,6 +1,7 @@
 body{
     margin: 0;
     color:#595959;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .title-icon {
@@ -10,23 +11,22 @@ body{
 }
 
 .text-title{
-    font-family: 'Segoe UI Semibold', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 28pt;
+    font-weight: 500;
+    font-size: 32pt;
 }
 
 .text-subtitle{
-    font-family: 'Segoe UI Semibold', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 16pt;
+    font-weight: 500;
+    font-size: 20pt;
 }
 
 .text-regular{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 10pt;
+    font-size: 14pt;
 }
 
 .text-semibold{
-    font-family: 'Segoe UI Semibold', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 10pt;
+    font-weight: 500;
+    font-size: 14pt;
 }
 
 .text-color-darkblue{
@@ -71,47 +71,47 @@ body{
 }
 
 .padding-top-big{
-    padding-top: 32pt;
+    padding-top: 40pt;
 }
 
 .padding-top-medium{
-    padding-top: 16pt;
+    padding-top: 24pt;
 }
 
 .padding-top-small{
-    padding-top: 12pt;
+    padding-top: 18pt;
 }
 
 .padding-bottom-big{
-    padding-bottom: 32pt;
+    padding-bottom: 18pt;
 }
 
 .padding-bottom-medium{
-    padding-bottom: 16pt;
+    padding-bottom: 24pt;
 }
 
 .padding-bottom-small{
-    padding-bottom: 12pt;
+    padding-bottom: 18pt;
 }
 
 .padding-left-big{
-    padding-left: 32pt;
+    padding-left: 40pt;
 }
 
 .padding-left-medium{
-    padding-left: 16pt;
+    padding-left: 24pt;
 }
 
 .padding-left-small{
-    padding-left: 12pt;
+    padding-left: 18pt;
 }
 
 .padding-right-big{
-    padding-left: 32pt;
+    padding-left: 40pt;
 }
 
 .padding-right-medium{
-    padding-left: 16pt;
+    padding-left: 24pt;
 }
 
 .avatar-card {
@@ -124,8 +124,8 @@ body{
     height: 100pt;
     width: 100pt;
     border-radius: 112pt;
-     margin-left: 32pt;
-    margin-right: 32pt;
+    margin-left: 40pt;
+    margin-right: 40pt;
 }
 
 .avatar-card-textblock {
@@ -139,18 +139,13 @@ body{
     flex-wrap: wrap;
 }
 
-.table-column-left{
+/* .table-column-left{
     width: 230pt;
 } 
 
 .table-column-right{
     width: 230pt;
-} 
-
-.table-inner-header{
-    font-family: 'Segoe UI Semibold', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 12pt;
-}
+}  */
 
 .experience-card{
     display: flex;
@@ -158,13 +153,13 @@ body{
 }
 
 .experience-card-project{
-    width: 400pt;
+    width: 550pt;
     display: flex;
     flex-direction: column;
 }
 
 .skill-bubbles{
-    padding-top: 6pt;
+    padding-top: 10pt;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -175,7 +170,7 @@ body{
     background-color: #24315e;
     color: #ffffff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 8pt;
+    font-size: 10pt;
     padding-left: 8pt;
     padding-right: 8pt;
     padding-top: 2pt;
