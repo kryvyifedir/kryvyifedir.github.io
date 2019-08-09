@@ -159,8 +159,9 @@ a{
 } 
 
 .experience-card{
-    max-width: 550pt;
-    margin-right: 16pt;
+    width: 440pt;
+    padding-right: 18pt;
+    padding-left: 18pt;
     display: flex;
     flex-direction: column;
 }
