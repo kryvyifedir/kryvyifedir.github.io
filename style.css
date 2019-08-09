@@ -190,3 +190,7 @@ a{
     padding-bottom: 2pt;
     margin: 1pt;
 }
+
+.padding-left-custom{
+    padding-left: 18pt;
+}
