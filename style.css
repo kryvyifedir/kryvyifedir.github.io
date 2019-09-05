@@ -16,20 +16,22 @@ a{
 
 .text-title{
     font-weight: 600;
-    font-size: 24pt;
+    font-size: 26pt;
 }
 
 .text-subtitle{
     font-weight: 600;
-    font-size: 18pt;
+    font-size: 20pt;
 }
 
 .text-regular{
     word-wrap: normal;
+    font-size: 14pt;
 }
 
 .text-semibold{
     font-weight: 600;
+    font-size: 14pt;
     /* font-size: 16px; */
 }
 
@@ -147,19 +149,19 @@ a{
 }
 
 .table-column-left{
-    width: 220pt;
+    width: 280pt;
     padding-right: 18pt;
     padding-left: 18pt;
 } 
 
 .table-column-right{
-    width: 220pt;
+    width: 280pt;
     padding-right: 18pt;
     padding-left: 18pt;
 } 
 
 .experience-card{
-    width: 440pt;
+    width: 560pt;
     padding-right: 18pt;
     padding-left: 18pt;
     display: flex;
