@@ -78,7 +78,7 @@ a{
 }
 
 .padding-top-big{
-    padding-top: 40pt;
+    padding-top: 32pt;
 }
 
 .padding-top-medium{
@@ -89,12 +89,20 @@ a{
     padding-top: 18pt;
 }
 
+.padding-top-x_small{
+    padding-top: 12pt;
+}
+
+.padding-top-xx_small{
+    padding-top: 8pt;
+}
+
 .padding-top-xxx_small{
     padding-top: 4pt;
 }
 
 .padding-bottom-big{
-    padding-bottom: 18pt;
+    padding-bottom: 32pt;
 }
 
 .padding-bottom-medium{
@@ -105,8 +113,16 @@ a{
     padding-bottom: 18pt;
 }
 
+.padding-bottom-x_small{
+    padding-bottom: 12pt;
+}
+
+.padding-bottom-xx_small{
+    padding-bottom: 8pt;
+}
+
 .padding-left-big{
-    padding-left: 40pt;
+    padding-left: 32pt;
 }
 
 .padding-left-medium{
@@ -118,11 +134,15 @@ a{
 }
 
 .padding-right-big{
-    padding-left: 40pt;
+    padding-left: 32pt;
 }
 
 .padding-right-medium{
     padding-left: 24pt;
+}
+
+.padding-right-small{
+    padding-left: 18pt;
 }
 
 .avatar-card {
