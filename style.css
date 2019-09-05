@@ -16,7 +16,7 @@ a{
 
 .text-title{
     font-weight: 600;
-    font-size: 26pt;
+    font-size: 32pt;
 }
 
 .text-subtitle{
@@ -32,7 +32,6 @@ a{
 .text-semibold{
     font-weight: 600;
     font-size: 14pt;
-    /* font-size: 16px; */
 }
 
 .text-color-darkblue{
@@ -88,6 +87,10 @@ a{
 
 .padding-top-small{
     padding-top: 18pt;
+}
+
+.padding-top-xxx_small{
+    padding-top: 4pt;
 }
 
 .padding-bottom-big{
