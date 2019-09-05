@@ -1,221 +1,245 @@
-body{
-    margin: 0;
-    color:#595959;
-    font-family: 'Segoe UI', Helvetica, Tahoma, Geneva, Verdana, sans-serif;
-}
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
 
-a{
-    color:#595959;
-}
+    <body>
+        <div class="section section-background-gray  padding-top-big ">
+            <div class="inner-block padding-bottom-medium">
+                <div class="avatar-card">
+                    <img class="avatar-card-img" src="assets\img\picture.jpg"/>
+                    <div class="avatar-card-textblock">
+                        <span class="text-title text-color-darkblue">FEDIR KRYVYI</span>
+                        <span class="text-subtitle text-color-blue">Salesforce Developer / </span>
+                        <span class="text-subtitle text-color-blue">Dynamics 365 FO Senior Developer</span>
+                    </div>
+                </div>
+                
+                <div class="split-table padding-top-medium">
+                    <div class="table-column-left ">
+                        <div class="subtitlewithicon padding-bottom-small">
+                            <img class="title-icon" src="assets\icons\personalinfo.png"/>
+                            <span class="text-subtitle text-color-darkblue">Personal Information</span>
+                        </div>
+                        
+                        <table class="text-regular">
+                            <tr>
+                                <td>Email</td>
+                                <td><a href="mailto:kriviyfedor@hotmail.com">kriviyfedor@hotmail.com</a></td>
+                            </tr>
+                            <tr>
+                                <td>Linkedin</td>
+                                <td><a href= "https://www.linkedin.com/fedorkryvyi"> https://www.linkedin.com/fedorkryvyi</a></td>
+                            </tr>
+                            <tr>
+                                <td>Phone</td>
+                                <td>+38 063 204 7672</td>
+                            </tr>
+                            <tr>
+                                <td>Skype</td>
+                                <td>krivoyfedor</td>
+                            </tr>
+                            <tr>
+                                <td>Blog</td>
+                                <td><a href="https://medium.com/@kriviyfedor">https://medium.com/@kriviyfedor</a></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="table-column-right">
+                        <div class="subtitlewithicon padding-bottom-small">
+                            <img class="title-icon" src="assets\icons\skills.png"/>
+                            <span class="text-subtitle text-color-darkblue">Skills</span>
+                        </div>
+                        
+                        <table class="text-regular">
+                            <tr>
+                                <td>Salesforce.com, Apex, Lightning Framework</td>
+                            </tr>
+                            <tr>
+                                <td>Salesforce administration</td>
+                            </tr>
+                            <tr>
+                                <td>Dynamics 365 FO development</td>
+                            </tr>
+                            <tr>
+                                <td>Power BI development</td>
+                            </tr>
+                            <tr>
+                                <td>SCRUM methodologies</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>  
+            </div>
+        </div>
 
-.title-icon {
-    height: 32pt;
-    width: 32pt;
-    padding-right: 8pt;
-}
+        <div class="section section-background-darkblue text-color-white">
+            <div class="inner-block padding-top-medium padding-bottom-medium">
+                <div class="subtitlewithicon padding-left-custom" style="flex:none;">
+                    <img class="title-icon" src="assets\icons\edu.png" />
+                    <span class="text-subtitle text-color-lightblue">Education and Certifications</span>
+                </div>
 
-.text-title{
-    font-weight: 600;
-    font-size: 32pt;
-}
+                <div class="split-table">
+                    <div class="table-column-left padding-top-small">
+                        <table class="text-regular">
+                            <tr><td><span class="text-semibold">Salesforce:</span></td></tr>
+                            <tr><td>APEX Specialist Superbadge</td></tr>
+                            <tr><td>Data Integration Specialist Superbadge</td></tr>
+                            <tr><td>100+ Trails completed</td></tr>
+                            <tr><td>&nbsp;</td></tr>
+                            <tr><td><span class="text-semibold">Languages:</span></td></tr>
+                            <tr><td>English - Advanced</td></tr>
+                            <tr><td>Russian - Native</td></tr>
+                        </table>
+                    </div>
+                    <div class="table-column-right padding-top-small">
+                        <table class="text-regular">
+                            <tr><td><span class="text-semibold">Dynamics AX:</span></td></tr>
+                            <tr><td>MB6-890: Dynamics AX Development Introduction</td></tr>
+                            <tr><td>MB6-869: Dynamics AX 2012 Development Introduction</td></tr>
+                            <tr><td>&nbsp;</td></tr>
+                            <tr><td><span class="text-semibold">Education:</span></td></tr>
+                            <tr><td>Master’s Degree in Computer Science:  Kyiv </td></tr>
+                            <tr><td>Polytechnic Institute, 2009 – 2015</td></tr> 
+                        </table>
+                    </div>
+                </div> 
+            </div>  
+        </div>
 
-.text-subtitle{
-    font-weight: 600;
-    font-size: 20pt;
-}
+        <div class="section padding-bottom-big">
+            <div class="inner-block">
+                <div class="subtitlewithicon padding-top-medium">
+                    <img class="title-icon" src="assets\icons\workexp.png" />
+                    <span class="text-subtitle text-color-darkblue">Work Experience</span>
+                </div>
 
-.text-regular{
-    word-wrap: normal;
-    font-size: 14pt;
-}
+                <div class="experience-card padding-left-medium padding-top-medium">
+                    <span class="text-subtitle text-color-darkblue">CoreValue Inc. – Salesforce, SDE</span>
+                    <span class="text-semibold text-color-blue">2019 August – Current (1 month)</span>
+                    <div class="experience-card-project padding-left-big padding-top-x_small padding-bottom-xx_small">
+                        <span class="text-subtitle text-color-darkblue">IQVIA OCE - Managed package development</span>
+                        <span class="text-regular padding-top-xxx_small">Managed package development. Details under NDA</span>
+                        
+                        <div class="skill-bubbles">
+                            <span class="skill-bubbles-item">Apex development</span>
+                            <span class="skill-bubbles-item">Lightning Components</span>
+                            <span class="skill-bubbles-item">Salesforce administration</span>
+                            <span class="skill-bubbles-item">Salesforce Analytics Cloud</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="experience-card padding-left-medium padding-top-medium">
+                    <span class="text-subtitle text-color-darkblue">LUXOFT – Salesforce, SDE</span>
+                    <span class="text-semibold text-color-blue">2019 February – 2019 August (7 month)</span>
+                    <div class="experience-card-project padding-left-big padding-top-x_small padding-bottom-xx_small">
+                        <span class="text-subtitle text-color-darkblue">Deutsche bank - Salesforce solution upgrade</span>
+                        <span class="text-regular padding-top-xxx_small">Development of custom Salesforce solution to keep track of current or potential customers of corporate finance division of Deutsche bank</span>
+                        
+                        <div class="skill-bubbles">
+                            <span class="skill-bubbles-item">Apex development</span>
+                            <span class="skill-bubbles-item">Lightning Web components</span>
+                            <span class="skill-bubbles-item">Salesforce administration</span>
+                        </div>
+                    </div>
+                </div>
 
-.text-semibold{
-    font-weight: 600;
-    font-size: 14pt;
-}
+                <div class="experience-card padding-left-medium padding-top-medium">
+                    <span class="text-subtitle text-color-darkblue">FIDUCIASOFT – Dynamics 365 FO, Senior SDE</span>
+                    <span class="text-semibold text-color-blue">2017 November – March 2019 (1 year, 4 month)</span>
+                    <div class="experience-card-project padding-left-big padding-top-x_small padding-bottom-xx_small">
+                        <span class="text-subtitle text-color-darkblue">XAPT – ISV Solution Upgrade</span>
+                        <span class="text-regular padding-top-xxx_small">“NAXT – Microsoft Dynamics 365 for Equipment dealers” is an “end-to-end’ ISV solution crafted for heavy machinery and equipment dealers</span>
+                        
+                        <div class="skill-bubbles">
+                            <span class="skill-bubbles-item">Dynamics 365 FO</span>
+                            <span class="skill-bubbles-item">Selenium</span>
+                            <span class="skill-bubbles-item">Specflow</span>
+                            <span class="skill-bubbles-item">Performance optimization</span>
+                        </div>
+                    </div>
+                </div>
 
-.text-color-darkblue{
-    color: #243a5e;
-}
+                <div class="experience-card padding-left-medium padding-top-medium">
+                    <span class="text-subtitle text-color-darkblue">ENAVATE – Dynamics AX, Senior SDE</span>
+                    <span class="text-semibold text-color-blue">2013 October – 2017 November (4 years, 1 month)</span>
+                    <div class="experience-card-project padding-left-big padding-top-x_small padding-bottom-xx_small">
+                        <span class="text-subtitle text-color-darkblue">PCL Construction – ISV solution development</span>
+                        <span class="text-regular padding-top-xxx_small">PCL Construction is the biggest Canadian construction company. They were utilizing AX2012 and required an upgrade to D365. The sheer complexity of their solution required substantial changes to existing code base and as a result, the development of a new D365 solution from ground-up</span>
+                        
+                        <div class="skill-bubbles">
+                            <span class="skill-bubbles-item">Dynamics 365 FO</span>
+                            <span class="skill-bubbles-item">Database architecture</span>
+                            <span class="skill-bubbles-item">UI development</span>
+                            <span class="skill-bubbles-item">D365 Package architecture</span>
+                            <span class="skill-bubbles-item">Document storage integration</span>
+                            <span class="skill-bubbles-item">Power BI development</span>
+                            <span class="skill-bubbles-item">Junior mentoring</span>
+                        </div>
+                    </div>
+                    <div class="experience-card-project padding-left-big padding-top-x_small padding-bottom-xx_small">
+                        <span class="text-subtitle text-color-darkblue">“Advanced Distribution” – ISV Solution Re-Imagining</span>
+                        <span class="text-regular padding-top-xxx_small">“Advanced distribution” is ENAVATE’s ISV solution developed to support distribution of stationery goods, which includes a prediction engine to forecast sales and suggest possible supplementary goods in case of a lack of supplies</span>
+                        
+                        <div class="skill-bubbles">
+                            <span class="skill-bubbles-item">Dynamics 365 FO</span>
+                            <span class="skill-bubbles-item">Code upgrade</span>
+                            <span class="skill-bubbles-item">Master planning/Forecasting</span>
+                            <span class="skill-bubbles-item">Mobile app development</span>
+                            <span class="skill-bubbles-item">CI/CD Setup</span>
+                        </div>
+                    </div>
+                    <div class="experience-card-project padding-left-big padding-top-x_small padding-bottom-xx_small">
+                        <span class="text-subtitle text-color-darkblue">Amphenol – AX2012 R2 Implementation</span>
+                        <span class="text-regular padding-top-xxx_small">AX2012 implementation for Amphenol in cooperation with the DELL development team. A customer’s business process is built around a large number of legal entities and requires cross-company optimization in AX </span>
+                        
+                        <div class="skill-bubbles">
+                            <span class="skill-bubbles-item">Dynamics AX 2012</span>
+                            <span class="skill-bubbles-item">UI modifications</span>
+                            <span class="skill-bubbles-item">Discounts mechanism improvement</span>
+                            <span class="skill-bubbles-item">Team management</span>
+                            <span class="skill-bubbles-item">AX web service integration</span>
+                        </div>
+                    </div>
+                    <div class="experience-card-project padding-left-big padding-top-x_small padding-bottom-xx_small">
+                        <span class="text-subtitle text-color-darkblue">CCH “Tax Calc” – Integration Support</span>
+                        <span class="text-regular padding-top-xxx_small">“Tax Calc” ISV solution is a widely used tax calculation solution in the US. CCH have their own ISV solution from AX2012 that integrates and shares data between two systems</span>
+                        
+                        <div class="skill-bubbles">
+                            <span class="skill-bubbles-item">Dynamics AX 2012</span>
+                            <span class="skill-bubbles-item">Integration support/modifications</span>
+                            <span class="skill-bubbles-item">AX web service integration</span>
+                        </div>
+                    </div>
+                    <div class="experience-card-project padding-left-big padding-top-x_small padding-bottom-xx_small">
+                        <span class="text-subtitle text-color-darkblue">Consulate health care - AX2012 R2 implementation</span>
+                        <span class="text-regular padding-top-xxx_small">Consulate Health Care is a leading provider of rehabilitative and long-term healthcare services </span>
+                        
+                        <div class="skill-bubbles">
+                            <span class="skill-bubbles-item">Dynamics AX 2012</span>
+                            <span class="skill-bubbles-item">SSRS report development</span>
+                            <span class="skill-bubbles-item">Technical documentation preparation</span>
+                        </div>
+                    </div>
+                </div>
 
-.text-color-blue{
-    color: #0078d4;
-}
-
-.text-color-lightblue{
-    color: #54ebff;
-}
-
-.text-color-white{
-    color: #ffffff;
-}
-
-.subtitlewithicon{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding-right: 4pt;
-}
-
-.section {
-    display: flex;
-    flex-direction: row;
-    justify-content: center; 
-}
-
- .inner-block{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-} 
-
-.section-background-gray {
-    background: #eaeaea;
-}
-
-.section-background-darkblue {
-    background: #24315e;
-}
-
-.padding-top-big{
-    padding-top: 32pt;
-}
-
-.padding-top-medium{
-    padding-top: 24pt;
-}
-
-.padding-top-small{
-    padding-top: 18pt;
-}
-
-.padding-top-x_small{
-    padding-top: 12pt;
-}
-
-.padding-top-xx_small{
-    padding-top: 8pt;
-}
-
-.padding-top-xxx_small{
-    padding-top: 4pt;
-}
-
-.padding-bottom-big{
-    padding-bottom: 32pt;
-}
-
-.padding-bottom-medium{
-    padding-bottom: 24pt;
-}
-
-.padding-bottom-small{
-    padding-bottom: 18pt;
-}
-
-.padding-bottom-x_small{
-    padding-bottom: 12pt;
-}
-
-.padding-bottom-xx_small{
-    padding-bottom: 8pt;
-}
-
-.padding-left-big{
-    padding-left: 32pt;
-}
-
-.padding-left-medium{
-    padding-left: 24pt;
-}
-
-.padding-left-small{
-    padding-left: 18pt;
-}
-
-.padding-right-big{
-    padding-left: 32pt;
-}
-
-.padding-right-medium{
-    padding-left: 24pt;
-}
-
-.padding-right-small{
-    padding-left: 18pt;
-}
-
-.avatar-card {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.avatar-card-img {
-    height: 100pt;
-    width: 100pt;
-    border-radius: 112pt;
-    margin-left: 40pt;
-    margin-right: 40pt;
-}
-
-.avatar-card-textblock {
-    display: flex;
-    flex-direction: column;
-}
-
-.split-table{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.table-column-left{
-    width: 280pt;
-    padding-right: 18pt;
-    padding-left: 18pt;
-} 
-
-.table-column-right{
-    width: 280pt;
-    padding-right: 18pt;
-    padding-left: 18pt;
-} 
-
-.experience-card{
-    width: 560pt;
-    padding-right: 18pt;
-    padding-left: 18pt;
-    display: flex;
-    flex-direction: column;
-}
-
-.experience-card-project{
-    display: flex;
-    flex-direction: column;
-}
-
-.skill-bubbles{
-    padding-top: 10pt;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.skill-bubbles-item{
-    border-radius: 16pt;
-    background-color: #24315e;
-    color: #ffffff;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 10pt;
-    padding-left: 8pt;
-    padding-right: 8pt;
-    padding-top: 2pt;
-    padding-bottom: 2pt;
-    margin: 1pt;
-}
-
-.padding-left-custom{
-    padding-left: 18pt;
-}
+                <div class="experience-card padding-left-medium padding-top-medium">
+                    <span class="text-subtitle text-color-darkblue">ONTARGIT – Dynamics AX 2012, Junior SDE</span>
+                    <span class="text-semibold text-color-blue">2013 February – 2013 September (7 months)</span>
+                    <div class="experience-card-project padding-left-big padding-top-x_small padding-bottom-xx_small">
+                        <span class="text-subtitle text-color-darkblue">Toyota Ukraine – Localization support</span>
+                        <span class="text-regular padding-top-xxx_small">As an intern in OntargIt, I successfully passed their AX training course and have learnt basics of AX2012 development, and as the result I joined their team as Junior SDE</span>
+                        
+                        <div class="skill-bubbles">
+                            <span class="skill-bubbles-item">Dynamics AX 2012</span>
+                            <span class="skill-bubbles-item">SSRS report development</span>
+                            <span class="skill-bubbles-item">Ukrainian localization support</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
